@@ -1,0 +1,86 @@
++@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.link{
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    text-decoration: none;
+}
+
+.link.primary-link {
+background-color: #DB2777;
+
+}
+.link.secondary-link {
+    background-color: #DB2777;
+ 
+}
+
+.navigation{
+    background-color: #DB2777;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .2rem;
+
+}
+
+#brand h1{
+    font-weight: bold;
+   }
+
+.container{
+    text-align: right;
+   
+}
+
+
+.navigation ul a {
+
+    color: rgb(167, 222, 135); 
+    font-size: 21px; 
+    text-decoration: none;
+    padding: 1rem;
+    
+}
+#center img{
+    display: block;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 600px;
+
+}
+
+#sections{
+    background-color: #DB2777;
+    padding: 10px 30px;
+    border-radius: .5rem;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    
+    
+}
+
+.social{
+    background-color: #DB2777;
+    border-top-right-radius: .5rem;
+    padding: .5rem 1rem;
+}
+
+.heading{
+    font-weight: bold;
+    text-size-adjust: 20px;
+}
+
+
+

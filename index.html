@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>component library</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -37,8 +38,12 @@
 
     <!-- next para  -->
     <h1>@links</h1>
-    <a href="//">Primary Link</a>
-    <a href="//">Secondary Link</a>
+    <div class="link">
+
+        <a class="link primary-link" href="//">Primary Link</a>
+        <a class="link secondary-link" href="//">Secondary Link</a>
+
+    </div>
     <hr>
 
     <!-- next para  -->
@@ -75,36 +80,54 @@
 
     <h1>@nav</h1>
     <p>Navigation is used on the top of the page and used to get to different pages</p>
-    <div>
-        <h1>The Brand Name</h1>
-        <a href="////">Home</a>
-        <a href="////">products</a>
-        <a href="////">about</a>
+    <nav class="navigation ">
 
-    </div>
 
+
+
+        <div id="brand">
+            <h1>The Brand Name</h1>
+        </div>
+        <div class="container">
+            <ul>
+
+                <a href="///">home</a>
+                <a href="////">products</a>
+                <a href="////">about</a>
+            </ul>
+        </div>
+    </nav>
+    <hr>
     <!-- next para  -->
     <h1>@header</h1>
-    <img src="img.svg" alt="img" width="470px">
-    <h1>this is heading h1 inside header</h1>
+
+    <header id="center">
+
+        <img src="img.svg" alt="img">
+        <h1>this is heading h1 inside header</h1>
+    </header>
     <hr>
 
 
     <!-- next para  -->
-    <h1>@Section</h1>
-    <p>A section is used to separate parts of pages. In marketing websites you would have seen a header followed by
-        sections of features, team, pricing, contact info etc.</p>
-    <h2>@normal section</h2>
-    <h1>heading inside section</h1>
-    <p>Text defining this section and many more things</p>
-    <a href="">Primary button</a>
+    <section>
+        <h1>@Section</h1>
+        <p>A section is used to separate parts of pages. In marketing websites you would have seen a header followed by
+            sections of features, team, pricing, contact info etc.</p>
+        <h2>@normal section</h2>
+        <h1>heading inside section</h1>
+        <p>Text defining this section and many more things</p>
+        <br>
+        <a href="" id="sections">Primary button</a>
+    </section>
     <br><br>
+
     <hr>
 
     <h1>@footer</h1>
 
-    <footer>
-        <div class="heading">header inside footer
+    <footer class="social">
+        <div class="heading"><h2>header inside footer</h2>
         </div>
         <ul>
             <li>socialone</li>
